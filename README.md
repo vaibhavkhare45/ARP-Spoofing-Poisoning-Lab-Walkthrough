@@ -19,7 +19,7 @@ The attack is performed in a controlled lab setup with **Kali Linux (attacker)**
 ## 🧩 What is ARP?  
 
 - **ARP (Address Resolution Protocol):** Maps an IP address to a MAC address on a LAN.  
-- Example: `192.168.152.2 → 00:11:22:33:44:55`  
+- Example: `192.168.**.** → 00:11:22:33:**:**`  
 
 ---
 
