@@ -32,9 +32,37 @@ The attack is performed in a controlled lab setup with **Kali Linux (attacker)**
 
 ---
 
+📊 Attack Flow
+Windows 7 (Victim) <---> Kali Linux (Attacker / MITM) <---> Router (Gateway)
+
+---
+
 ## 📸 Screenshots  
 
+ARP spoofing command execution
 ![Screenshot 1](./Screenshot%202025-08-25%20221401.png)  
-![Screenshot 2](./Screenshot%202025-08-25%20221437.png)  
+![Screenshot 2](./Screenshot%202025-08-25%20221437.png)
+
+Sniffed traffic logs (victim’s HTTP requests)
 ![Screenshot 3](./Screenshot%202025-08-25%20221503.png)  
+
+Victim browsing unencrypted sites
 ![Screenshot 4](./Screenshot%202025-08-25%20221536.png)  
+
+---
+
+🔒 Defense Against ARP Poisoning
+
+Use Static ARP entries where possible.
+
+Enable Dynamic ARP Inspection (DAI) on managed switches.
+
+Use VPNs / HTTPS to encrypt traffic.
+
+Employ IDS/IPS tools (e.g., Snort, Suricata) to detect ARP anomalies.
+
+---
+
+✨ Author
+
+👨‍💻 Created by Vaibhav Khare
