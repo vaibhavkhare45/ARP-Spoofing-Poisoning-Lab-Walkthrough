@@ -44,6 +44,7 @@ ARP spoofing command execution
 ![Screenshot 2](./Screenshot%202025-08-25%20221437.png)
 
 Enable IP Forwarding
+
 ![Screenshot 3](./Screenshot%202025-08-25%20221503.png)  
 
 Sniffed traffic logs (victim’s HTTP requests)
