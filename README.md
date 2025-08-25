@@ -15,6 +15,7 @@ The attack is performed in a controlled lab setup with **Kali Linux (attacker)**
 - **Tool Used:** `arpspoof` (part of `dsniff` package)  
 
 ---
+
 ## 🧩 What is ARP?  
 
 - **ARP (Address Resolution Protocol):** Maps an IP address to a MAC address on a LAN.  
@@ -30,3 +31,10 @@ The attack is performed in a controlled lab setup with **Kali Linux (attacker)**
 4. All traffic flows **through attacker’s machine** (MITM).  
 
 ---
+
+## 📸 Screenshots  
+
+![Screenshot 1](./Screenshot%202025-08-25%20221401.png)  
+![Screenshot 2](./Screenshot%202025-08-25%20221437.png)  
+![Screenshot 3](./Screenshot%202025-08-25%20221503.png)  
+![Screenshot 4](./Screenshot%202025-08-25%20221536.png)  
